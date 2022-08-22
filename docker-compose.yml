@@ -1,0 +1,51 @@
+version: '3.5'
+
+services:
+  
+  nginx:
+    container_name: nginx
+    image: nginx:1.15.12-alpine
+    restart: unless-stopped
+    volumes:
+      - ./deployments/demo:/etc/nginx/conf.d
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - backend
+    depends_on:
+      # - api
+      - www
+
+  # api:
+  #   container_name: api
+  #   image: node:14-alpine3.14
+  #   restart: always
+  #   build:
+  #     context: ./app/api
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - 3000:3000
+  #   volumes:
+  #     - ./app/api/uploads:/usr/src/app/api/uploads
+  #   networks:
+  #     - backend
+  #   working_dir: /usr/src/app/api
+
+  www:
+    container_name: www
+    restart: always
+    build:
+      context: ./app/www
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    networks:
+      - backend
+    # depends_on:
+    #   - api
+    working_dir: /usr/src/app/www
+    # command: 'yarn start'
+
+networks:
+  backend:
