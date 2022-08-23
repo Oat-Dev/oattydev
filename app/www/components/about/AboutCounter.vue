@@ -33,7 +33,7 @@ export default {
             dark:text-secondary-light
             mb-2
           "
-          >7+</span
+          >2+</span
         >
         <span class="block text-md text-ternary-dark dark:text-ternary-light"
           >Years of experience</span
@@ -41,7 +41,7 @@ export default {
       </div>
 
       <!-- GitHub stars counter -->
-      <div class="mb-20 sm:mb-0">
+      <!-- <div class="mb-20 sm:mb-0">
         <span
           class="
             font-general-medium
@@ -56,7 +56,7 @@ export default {
         <span class="block text-md text-ternary-dark dark:text-ternary-light"
           >Stars on GitHub</span
         >
-      </div>
+      </div> -->
 
       <!-- Positive feedback counter -->
       <div class="mb-20 sm:mb-0">

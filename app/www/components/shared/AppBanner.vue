@@ -43,7 +43,7 @@ export default {
           uppercase
         "
       >
-        Hi, Iam Stoman
+        Hi, I'm OatTy__Dev
       </h1>
       <p
         class="
@@ -58,9 +58,9 @@ export default {
           text-gray-400
         "
       >
-        A Full-Stack Developer & Design Enthusiast
+        A Full-Stack Web Developer & Design Enthusiast
       </p>
-      <div class="flex justify-center sm:block">
+      <!-- <div class="flex justify-center sm:block">
         <a
           href="/Stoman-Resume.pdf"
           download=""
@@ -97,7 +97,7 @@ export default {
             >Download CV</span
           ></a
         >
-      </div>
+      </div> -->
     </div>
 
     <!-- Banner right illustration -->
