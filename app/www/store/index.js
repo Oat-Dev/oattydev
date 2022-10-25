@@ -49,7 +49,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
+          details: "#",
         },
         {
           id: uuidv4(),
@@ -63,7 +63,7 @@ export const state = () => ({
         "JavaScript",
         "Nuxt.js",
         "TailwindCSS",
-        "AdobeXD",
+        "Docker",
       ],
       projectDetails: [
         {
