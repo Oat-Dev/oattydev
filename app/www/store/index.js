@@ -747,11 +747,11 @@ export const state = () => ({
   aboutMe: [
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+      bio: "ธรรมะแท้ไม่มีคำปลอบใจ - อาจารย์แดงกีตาร์",
     },
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+      bio: "เพราะฉะนั้นกูไม่มีคำอวยพรวันปีใหม่ให้พวกมึงไอ้พวกชาตินรก มึงอยากรวยมึงก็ต้องทำหาแดกวางแผนการเงิน มึงอยากมีชีวิตที่ดีมึงก็ต้องเป็นคนที่ดีคบมิตรที่ดีวางแผนชีวิต ไม่มีใครอวยพรดลบันดาลให้มึงดีหรือชั่วได้ถ้ามึงไม่ลงมือทำ ชีวิตมึงจะเป็นยังไงก็อยู่ที่การกระทำของมึงเอง",
     },
   ],
   copyrightDate: new Date().getFullYear(),
