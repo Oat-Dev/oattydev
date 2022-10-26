@@ -62,7 +62,7 @@ export default {
             <img
               v-if="this.$colorMode.value == 'dark'"
               src="~/static/logo.png"
-              class="w-36"
+              class="w-24"
               alt="Light Logo"
             />
 
@@ -70,7 +70,7 @@ export default {
               v-else
               src="~/static/logo.png"
               alt="Color Logo"
-              class="w-36"
+              class="w-24"
             />
           </NuxtLink>
         </div>
