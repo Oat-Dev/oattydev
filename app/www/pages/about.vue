@@ -19,7 +19,6 @@ export default {
 
     <AboutCounter />
 
-    <AboutClients class="container mx-auto" />
   </div>
 </template>
 
